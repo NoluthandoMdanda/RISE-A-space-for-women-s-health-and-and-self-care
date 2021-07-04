@@ -1,0 +1,1047 @@
+/* FOUNDATION */
+body {
+	/* FLEX BOX PROPERTIES */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	/* BOX MODEL PROPERTIES */
+	margin: 0;
+	padding: 0;
+	min-height: 130vh;
+
+	/*Specify font family*/
+	font-family: 'Cambria', serif;
+
+}
+
+body>* {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* INDEX.HTML */
+#html1 {
+	background-image: linear-gradient(#FFEFC1, #E8D1BA, #C4A1B0, #A97DA8, #874F9E);
+}
+
+/* NAVIGATION SECTION */
+
+nav {
+	color: black;
+	height: 80px;
+	width: 100%;
+	font-size: 23px;
+
+	/*Stretch the distance between elements to fill the width*/
+	max-width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+	border-radius: 10px;
+	border: 10px solid white;
+}
+
+nav a {
+	/*Customize <a> tag style*/
+	text-decoration: none;
+	color: black;
+	margin: 12px;
+}
+
+nav>a:hover {
+	color: white;
+}
+
+/* HEADER SECTION */
+
+header {
+	color: black;
+	height: 400px;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 64px;
+	margin: 0;
+	margin-left: 280px;
+	margin-right: 100px;
+}
+
+header h2 {
+	font-size: 41px;
+	margin: 0;
+	margin-left: 280px;
+	margin-right: 100px;
+	color: black;
+	text-transform: uppercase;
+}
+
+header h3 {
+	font-size: 24px;
+	margin: 0;
+	margin-left: 280px;
+	margin-right: 100px;
+	color: black;
+}
+
+header img {
+	width: 310px;
+	height: 310px;
+	/*background-color: black;*/
+	border-radius: 50%;
+	margin-left: 100px;
+	margin-right: auto;
+	border: 2px solid black;
+}
+
+/* ABOUT SECTION */
+
+#about {
+	color: white;
+	min-height: 400px;
+	width: 100%;
+	font-size: 35px;
+	padding: 40px 0;
+	
+	/* Center the content vertically and horizontally */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about>div {
+	max-width: 640px;
+
+	/* padding: top right bottom left */
+	padding: 16px 40px 16px 40px;
+	text-align: center;
+
+	/* Define the text color in this div box*/
+	color: black;
+}
+
+/* THEMES SECTION */
+
+#themes {
+	color: white;
+	/*background-color: #F2CC8F;*/
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	font-size: 35px;
+
+	/* Center the content vertically and horizontally */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#themes>div {
+	max-width: 640px;
+	/* padding: top right bottom left */
+	padding: 16px 40px 16px 40px;
+	text-align: center;
+	align-items: center;
+
+	/* Define the text color in this div box*/
+	color: black;
+}
+
+.button1 {
+	width: 100%;
+	background-color: #534B52;
+	color: white;
+
+	padding: 22px 26px;
+	font-size: 22px;
+	border-radius: 12px;
+	border: 2px solid #000080;
+
+	text-align: center;
+	display: inline-block;
+}
+
+.button2 {
+	width: 100%;
+	background-color: #474448;
+	color: white;
+
+	padding: 22px 26px;
+	font-size: 22px;
+	border-radius: 12px;
+	border: 2px solid #000080;
+
+	text-align: center;
+	display: inline-block;
+}
+
+.button3 {
+	width: 100%;
+	background-color: #B9BAA3;
+	color: black;
+
+	padding: 22px 26px;
+	font-size: 22px;
+	border-radius: 12px;
+	border: 2px solid #000080;
+
+	text-align: center;
+	display: inline-block;
+}
+
+.button4 {
+	width: 100%;
+	background-color: #85877C;
+	color: black;
+
+	padding: 22px 26px;
+	font-size: 22px;
+	border-radius: 12px;
+	border: 2px solid #000080;
+
+	text-align: center;
+	display: inline-block;
+}
+
+/* UMWIND SECTION */
+
+#unwind {
+	color: white;
+	/*background-color: #F2CC8F;*/
+	min-height: 400px;
+	width: 100%;
+	font-size: 35px;
+
+	/* Center the content vertically and horizontally */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#unwind>div {
+	max-width: 640px;
+	/* padding: top right bottom left */
+	padding: 16px 40px 16px 40px;
+	text-align: center;
+
+	/* Define the text color in this div box*/
+	color: black;
+}
+
+
+/* CONTACT US SECTION */
+
+#contact {
+	color: black;
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	font-size: 35px;
+}
+
+#contact h2 {
+	color: black;
+	text-transform: uppercase;
+
+}
+
+#contact form {
+	max-width: 640px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: pink;
+}
+
+#contact form>* {
+	font-family: 'Monaco', monospace;
+
+}
+
+#contact input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+}
+
+#contact textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	height: 120px;
+	resize: none;
+}
+
+#contact button {
+	width: 50%;
+	background-color: #F45B69;
+	color: white;
+	text-align: center;
+
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+	color: black;
+	background-color: #F7DAD9;
+	height: 120px;
+	width: 100%;
+	font-size: 16px;
+	font-style: italic;
+	max-width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0;
+}
+
+/* MENTAL.HTML */
+
+/* TABLE SECTION */
+
+table,
+th,
+td {
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: top;
+	padding: 10px;
+
+}
+
+.depression-zoom {
+	transition: transform 0.2s;
+}
+
+.depression-zoom:hover {
+	transform: scale(1.4);
+}
+
+.anxiety-zoom {
+	transition: transform 0.2s;
+}
+
+.anxiety-zoom:hover {
+	transform: scale(1.4);
+}
+
+.substance-zoom {
+	transition: transform 0.2s;
+}
+
+.substance-zoom:hover {
+	transform: scale(1.4);
+}
+
+/* DEPRESSION SECTION */
+/* LIME GREEN REPRESENTS DEPRESSION AWARNESS*/
+
+#depression {
+	color: white;
+	background-color: #D1F0B1;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#depression {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* ANXIETY SECTION */
+/* TEAL REPRESENTS AXIETY AWARNEESS*/
+
+#anxiety {
+	color: white;
+	background-color: #BBD1EA;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#anxiety {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* SUBSTANCE ABUSE SECTION */
+/* RED REPRESENTS SUBSTANCE ABUSE AWARNESS */
+
+#substance {
+	color: white;
+	background-color: #F1AB86;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#substance {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* SELF-HELP SECTION */
+/* ORANGE REPRESENTS SELF-HARM/ SELF-INJURY AWARNESS */
+
+#selfhelp {
+	color: black;
+	background-color: #EDB458;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+}
+
+#selfhelp ul {
+	list-style-type: square;
+	list-style-position: inside;
+	text-align: left;
+
+}
+
+/* HELPING OTHERS SECTION */
+/* VIBRANT GREEN REPRESENTS MENTAL HEALTH AWARENESS */
+
+#othershelp {
+	color: black;
+	background-color: #036D19;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+}
+
+#othershelp ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	text-align: left;
+
+}
+
+/* SIDENAV */
+
+#sidenav1 a {
+	position: fixed;
+	left: -90px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border: 2px solid black;
+	border-radius: 0 5px 5px 0;
+}
+
+#sidenav1 a:hover {
+	left: 0;
+}
+
+#buttonA {
+	top: 10px;
+	background-color: #E3BC9A;
+}
+
+#buttonB {
+	top: 60px;
+	background-color: #DEB095;
+}
+
+#buttonC {
+	top: 110px;
+	background-color: #D8A18F;
+}
+
+#buttonD {
+	top: 180px;
+	background-color: #D39389
+}
+
+#buttonE {
+	top: 250px;
+	background-color: #CF8784;
+}
+
+#buttonF {
+	top: 320px;
+	background-color: #CA797E;
+}
+
+#buttonG {
+	top: 365px;
+	background-color: #C46877;
+}
+
+
+
+/* PHYSICAL.HTML */
+
+/* TABLE SECTION */
+
+table,
+th,
+td {
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: top;
+	padding: 10px;
+
+}
+
+.menstrual-zoom {
+	transition: transform 0.2s;
+}
+
+.menstrual-zoom:hover {
+	transform: scale(1.3);
+}
+
+.fertility-zoom {
+	transition: transform 0.2s;
+}
+
+.fertility-zoom:hover {
+	transform: scale(1.1);
+}
+
+.contraceptive-zoom {
+	transition: transform 0.2s;
+}
+
+.contraceptive-zoom:hover {
+	transform: scale(1.2);
+}
+
+.pregnancy-zoom {
+	transition: transform 0.2s;
+}
+
+.pregnancy-zoom:hover {
+	transform: scale(1.2);
+}
+
+.std-zoom {
+	transition: transform 0.2s;
+}
+
+.std-zoom:hover {
+	transform: scale(1.4);
+}
+
+
+/* MENSTRUAL SECTION */
+/* RED REPRESENTS MENSTRATION AWARNESS */
+
+#menstrual {
+	color: white;
+	background-color: #D34949;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#menstrual {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* FERTILITY SECTION */
+/* GREEN REPRESENTS FERTILITY AWARNESS */
+
+#fertility {
+	color: white;
+	background-color: #FFA500;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#fertility {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* CONTRACEPTIVE SECTION */
+/* TEAL & WHITE REPRESENTS CONTRACEPTIVE AWARNESS */
+
+#contraceptive {
+	color: white;
+	background: linear-gradient(110deg, #008080 60%, white 60%);
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#contraceptive {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* PREGNANCY SECTION */
+/* MAGENTA REPRESENTS THE PROCESS OF PREGNANCY */
+
+#pregnancy {
+	color: white;
+	background-color: #E37383;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#pregnancy {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* STD/STI SECTION */
+
+#std {
+	color: white;
+	background-color: #90EE90;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+}
+
+#std {
+	color: black;
+	text-transform: uppercase;
+}
+
+/* SELF-HELP SECTION */
+/* ORANGE REPRESENTS SELF-HARM/ SELF-INJURY AWARNESS */
+
+#selfhelp {
+	color: black;
+	background-color: #EDB458;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+}
+
+#selfhelp ul {
+	list-style-type: square;
+	list-style-position: inside;
+	text-align: left;
+
+}
+
+/* HELPING OTHERS SECTION */
+/* VIBRANT GREEN REPRESENTS MENTAL HEALTH AWARENESS */
+
+#othershelp {
+	color: black;
+	background-color: #4CBB17;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+	min-height: 600px;
+}
+
+#othershelp ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	text-align: left;
+
+}
+
+/* SIDENAV */
+
+#sidenav2 a {
+	position: fixed;
+	left: -90px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 110px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border: 2px solid black;
+	border-radius: 0 5px 5px 0;
+}
+
+#sidenav2 a:hover {
+	left: 0;
+}
+
+#buttonAA {
+	top: 10px;
+	background-color: #DEB095;
+}
+
+#buttonBB {
+	top: 60px;
+	background-color: #D8A18F;
+}
+
+#buttonCC {
+	top: 110px;
+	background-color: #D39389;
+}
+
+#buttonDD {
+	top: 165px;
+	background-color: #CF8784
+}
+
+#buttonEE {
+	top: 210px;
+	background-color: #CA797E;
+}
+
+#buttonFF {
+	top: 255px;
+	background-color: #C7727B;
+}
+
+#buttonGG {
+	top: 320px;
+	background-color: #C46877;
+}
+
+#buttonHH {
+	top: 390px;
+	background-color: #C05F73;
+}
+
+#buttonII {
+	top: 435px;
+	background-color: #BC556F;
+}
+
+/* JOURNAL.HTML */
+
+#html2 {
+	background: radial-gradient(circle at top, #CA9703, #4488BF, transparent),
+		radial-gradient(circle at bottom, #4d9f0c, #D5AD36, #265999);
+}
+
+/* JOURNAL SECTION */
+
+#entries {
+	color: black;
+	/*background-color: #f6efa6;*/
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	font-size: 23px;
+	text-align: center;
+
+}
+
+#entries h2 {
+	color: white;
+	text-transform: uppercase;
+
+}
+
+#entries form {
+	width: 100%;
+	width: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#entires form>* {
+	font-family: 'Monaco', monospace;
+
+}
+
+#entries textarea {
+	width: 100%;
+	font-size: 16px;
+	border: none;
+	margin-bottom: 16px;
+	height: 75vh;
+	resize: none;
+
+}
+
+#entries button {
+	width: 100%;
+	background-color: #F45B69;
+	color: white;
+	text-align: center;
+
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+
+	border: 2px solid black;
+}
+
+.button20 {
+	width: 25%;
+	background-color: #534B52;
+	color: white;
+
+	padding: 11px 13px;
+	font-size: 22px;
+	border-radius: 12px;
+	border: 2px solid #000080;
+
+	text-align: center;
+	display: inline-block;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* AUDIOVISUAL.HTML */
+
+#html3 {
+	background-image: linear-gradient(#8DB38B, #047E0F, #006994);
+
+}
+
+/* AUDIOVISUAL SECTION */
+
+.map {
+	position: relative;
+	width: 100%
+}
+
+.map img {
+	width: 100%;
+	height: 100vh;
+}
+
+/* AUSTRALIA */
+
+.button12 {
+	background-color: white;
+	color: white;
+
+	position: absolute;
+	bottom: 6em;
+	right: 15em;
+
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	border: none;
+	cursor: pointer;
+}
+
+/* KENYA */
+
+.button13 {
+	background-color: white;
+	color: white;
+
+	position: absolute;
+	bottom: 14em;
+	right: 41em;
+
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	border: none;
+	cursor: pointer;
+}
+
+/* ICELAND */
+
+.button14 {
+	background-color: white;
+	color: white;
+
+	position: absolute;
+	bottom: 32em;
+	right: 54em;
+
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	border: none;
+	cursor: pointer;
+}
+
+/* MONGOLIA */
+
+.button15 {
+	background-color: white;
+	color: white;
+
+	position: absolute;
+	bottom: 25em;
+	right: 24em;
+
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	border: none;
+	cursor: pointer;
+}
+
+/* CHILE */
+
+.button16 {
+	background-color: white;
+	color: white;
+
+	position: absolute;
+	bottom: 8em;
+	right: 66em;
+
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	border: none;
+	cursor: pointer;
+}
+
+/* CANADA */
+
+.button17 {
+	background-color: white;
+	color: white;
+
+	position: absolute;
+	bottom: 27em;
+	right: 66em;
+
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	border: none;
+	cursor: pointer;
+}
+
+.button21 {
+	width: 100%;
+	background-color: #534B52;
+	color: white;
+
+	padding: 11px 13px;
+	font-size: 22px;
+	border-radius: 12px;
+	border: 2px solid #000080;
+
+	text-align: center;
+	display: inline-block;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* THANKS.HTML */
+
+/* THANKS SECTION */
+
+#thanks {
+	color: black;
+	min-height: 200px;
+
+	width: 100%;
+	font-size: 35px;
+
+	/* Center the content vertically and horizontally */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* FOOTER */
+
+#footer2 {
+	height: 110px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.button6 {
+	width: 100%;
+	background-color: #443730;
+	color: white;
+	padding: 22px 26px;
+	font-size: 20px;
+	border-radius: 15px;
+
+	border-radius: 12px;
+	border: 2px solid black;
+
+	text-align: center;
+	display: inline-block;
+}
+
+.button6:hover {
+	background-color: #A5907E;
+	color: black;
+}

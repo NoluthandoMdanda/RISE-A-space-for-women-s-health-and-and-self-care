@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html id="html1">
+
+	<head>
+		<meta name="viewpoint" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+
+	</head>
+
+	<body>
+		<nav>
+			<a href="#home">HOME</a>
+			<a href="#about">ABOUT</a>
+			<a href="#themes">THEMES</a>
+			<a href="#unwind">UNWIND</a>
+			<a href="#contact">CONTACT US</a>
+		</nav>
+		<header>
+			<img src=https://politemoth32.qoom.space/HackTheGap/RISE.png alt="RISE Logo">
+			<div>
+				<h2>Welcome to </h2>
+				<h1>RISE</h1>
+				<h3>A safe space to learn about women's health and destress.</h3>
+			</div>
+		</header>
+
+		<section id="about">
+			<div>
+				<h2>ABOUT</h2>
+				<h4> Women's health does not only focus on their physical condition but also on their mental well-being. </h4>
+				<p> The focal point of RISE aims to provide useful information and resources about mental, sexual and reproduction health. Futhermore, it provides an environment that allows the user to return to a calm state of mind. </p>
+			</div>
+		</section>
+		<section id="themes">
+			<div>
+				<h2>THEMES</h2>
+			</div>
+
+			<div>
+
+				<ul>
+					<a href="mental.html" class="button1"> Mental Health </a>
+					<a href="physical.html" class="button2"> Physical Health </a>
+				</ul>
+			</div>
+
+		</section>
+		<section id="unwind">
+			<div>
+				<h2>UNWIND</h2>
+			</div>
+			<div>
+				<ul>
+					<a href="journal.html" class="button3"> Journal </a>
+					<a href="audiovisual.html" class="button4"> Audiovisual </a>
+				</ul>
+			</div>
+		</section>
+		<section id="contact">
+			<div>
+				<h2>contact us</h2>
+			</div>
+			<div>
+				<h5> &hearts; Remember that mental and physical health is different for everyone. So show kindness and understanding to others and to yourself &hearts; </h5>
+			</div>
+			<div>
+				<p> Don't hesitate to contact us if you have any compliments, critiques, suggestions or questions. All feedback is valueable and appreciated. </p><br>
+			</div>
+			<form action='/survey/checkout' method='post' enctype="multipart/form-data">
+				<input type="text" name="Name" placeholder='Your full name' required>
+				<input type="email" name="email" placeholder='Your email address' required>
+				<textarea name="Message" placeholder='Type your message here' required></textarea>
+				<button> Send </button>
+				<input type='hidden' name='redirecturl' value="thanks.html">
+				<input type='hidden' name='survey' value='Contact'>
+			</form>
+		</section>
+		<footer>
+			<div> project: RISE powered by: Qoom </div>
+		</footer>
+	</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html id="html2">
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+	</head>
+
+	<body>
+		<nav>
+			<h1>Journal</h1>
+		</nav>
+		<main>
+			<section id="entries">
+
+				<h2>Share your thoughts</h2>
+				<form action='/survey/checkout' method='post' enctype="multipart/form-data">
+					<textarea name="Thoughts" placeholder='~Enter anything and everything that is on your mind~'></textarea>
+					<a href="/HackTheGap/journal.html" target="_blank" download="myJournal.txt"><button>Save</button></a>
+
+				</form>
+
+				<div>
+					<ul>
+						<a href="index.html#unwind" class="button20"> Back </a>
+					</ul>
+				</div>
+
+			</section>
+		</main>
+	</body>
+
+</html>
